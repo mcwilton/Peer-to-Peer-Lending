@@ -1,0 +1,48 @@
+
+// 顶部导航的覆盖样式
+.navbar-inverse {
+    margin:0;
+    .navbar-brand{
+        color:#ccc;
+        font-size:24px;
+        font-style: italic;
+        line-height: 38px;
+        span{
+            font-size:14px;
+            color:#ccc;
+            margin-right: 5px;
+        }
+    }
+    .navbar-nav{
+        &>li{
+            &>a{
+                font-size:16px;
+                line-height: 38px;
+                &:hover{
+                    color:blue;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+.tooltip img{
+    width: 100px;
+}
+
+// 主导航样式
+.navbar-default {
+    background-color: #f9f9f9;
+    .navbar-nav{
+        &>li{
+            &>a{
+                font-size:16px;
+                line-height: 38px;
+                &:hover{
+                    color:blue;
+                    background-color: #f0f0f0;
+                }
+            }
+        }
+    }      
+}

@@ -1,0 +1,97 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    margin:0px;
+    padding:0px;
+}
+// 左侧菜单栏
+.list{
+    padding-left: 0;
+    margin-bottom: 20px;
+    .panel-default{
+        // margin:0px;
+        .panel-heading{
+            .panel-title{
+                &>a{
+                    color: #337ab7;
+                    text-decoration: none;
+                    &:hover{
+                        color:#23527c;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+        .panel-collapse{
+            .panel-body{
+                border:none;
+                height: 40px;
+                padding-left: 40px;
+                line-height: 14px;
+                &>a{
+                    color: #337ab7;
+                    &:hover{
+                        color:#23527c;
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}
+.panel-group .panel+.panel {
+    margin-top: 0px;
+}
+// 右侧内容
+#perCon{
+    .person_right{
+        .panel-body{
+            .hed{
+                border-bottom:1px solid #ccc;
+                margin-bottom:20px;
+                .headleft{
+                    max-width: 85px;
+                    padding:5px;
+                    margin-left: 5px;
+                    border:1px solid #ccc;
+                    box-sizing: border-box;
+                    img{
+                        max-width: 75px;
+                        border-radius: 50%;
+                    }
+                }
+            }
+            #money{
+                div{
+                    margin-bottom: 20px;
+                    font-size:16px;
+                    span{
+                        
+                        color: #337ab7;
+                    }
+                }
+            }
+            #myButton{
+                text-align: center;
+            }
+            #rz{
+                margin-top:20px;
+                div{
+                    .pull-left{
+                        margin-left:10px;
+                        h4{
+                            font-weight: bold;
+                        }
+                    }
+                    div{
+                        img{
+                            margin-top:6px;
+                        }
+                    }
+                }
+            }      
+        } 
+    }
+}
+
+// 

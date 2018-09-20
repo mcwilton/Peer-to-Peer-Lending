@@ -1,0 +1,98 @@
+@import url("header.less");
+
+// 三大特色
+#feature{
+    margin-top: 20px;
+    .row{
+        &>div{
+            background: url(../../../images/feature01.png) no-repeat left center;
+            //background-position: left center;
+            height: 65px;
+            padding-left: 80px;
+            margin-bottom: 25px;
+            h3{
+                font-size: 18px;
+                font-weight: bold;
+                padding: 0px;
+                margin: 0px;
+                overflow: hidden;
+            }
+        }
+
+        &>div:nth-of-type(2){
+            background-image: url(../../../images/feature02.png);
+        }
+
+        &>div:nth-of-type(3){
+            background-image: url(../../../images/feature03.png);
+        }
+    }
+}
+
+
+// 案例
+    // 题首
+    .panel{
+        margin:0px;
+        padding:0px;
+        border:none;
+        border-bottom:1px solid #c1c1c1;
+        .panel-body{
+            margin:0px;
+            padding:0px;
+            h2{
+                margin:0px;
+                padding:0px;
+                color:#2e8ece;
+                border-bottom:3px solid #2e8ece;
+            }
+            p{
+                margin:0px;
+                padding-top:10px;
+                a{
+                    color:#337ab7;
+                    text-decoration: none;
+                    &:hover{
+                        color:#333;
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+    // 表格
+    @media all and (max-width: 768px) {
+        .titlenone {
+            display:none;
+        }
+    }
+
+// 新闻资讯
+.newscom{
+    margin-bottom:10px;
+    ul{
+        padding:0px;
+        li{
+            margin:0px;
+            list-style-type: none;
+            border-bottom: 1px dotted #eee;
+            a{
+                span{
+                    color:#555;
+                    line-height: 38px;
+                    font-size: 14px;
+                    &:hover{
+                        color:#337ab7;
+                    }
+                }
+                
+            }
+        }
+    }
+}
+    
+@import url("footer.less");
+
+            
+
+    
